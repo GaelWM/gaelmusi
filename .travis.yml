@@ -12,15 +12,4 @@ deploy:
     secure: imYSlvyY6vkTkLBB7I7P7ui6peObtW2pf22qMiwV5AINXKn0NPrwcDEsNVfn9tZK39uItNDzcpOsVsNVMHoNsYsho93rxo90FJrYNvp4xF/Im1jrDRjD2Vlw13wOUMGwDHYO/epxebatOCTSKXBP1n9FNS5orlJhrBIKTIKrbB7CeupY0H3QKjLYZaPKstBv/XhSia1SG1kVnHb5uVFsNv01e7uB6y7Rm//jb1H4PAsHj3yroHNzm1pQRA7QeonvS1xYNMA8rwTTJuBmEm3BYLH3rDduC3kmJX62B4iz7iO7x86y2UziGTeUxLErxrZknCpGUOLTxuaqL47ev2Heh7MAl/fzJ+tXnZWVVEtysGiZlyodnprtsTcALcICgYfcYtABMM0ZYYeEWz+w1m2ehKTtF76kJscNKc1qtbYeQRrAJUhwema1VvlmIBBnaV+u9GuVmj880CBOn9SVa9PPGk5eBm5YPXIjIgiBTtXXxs2ZRgk+x3w7vqgE9TuLkpaYbXQUmDJn9PoXblt7voPzoV8s2rF1Evtvi9iureSy8LAmAJ/jfPLcg/R9ROoGsgtLsvvOmGTAaobOfixE95XlzHJB8VECCIjbFHyaASEksoOhf1H+82+iyHrrWkSPAkTDJ3OhF8n1uJCoT1tJiDusT1ct5EZzt9y5iVYoxIK4eEo=
   local_dir: build
   skip_cleanup: true
-  on: &2
-    repo: GaelWM/gaelmusi
-  bucket: gaelmusi
-- provider: codedeploy
-  access_key_id: AKIAI6IKW3HG5C6XRL4A
-  secret_access_key: *1
-  bucket: gaelmusi
-  key: ''
-  bundle_type: ''
-  application: gaelmusi
-  deployment_group: ''
-  on: *2
+
